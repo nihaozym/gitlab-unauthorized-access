@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-GitLab Unauthorized Access Vulnerability Exploit
-严格按照Goby插件逻辑实现
-"""
 
 import requests
 import re
@@ -94,11 +90,8 @@ class GitLabUnauthorizedExploit:
 
 
 def main():
-    """
-    主函数 - 严格按照原插件的利用流程
-    """
     # 配置参数
-    target = "http://whucsgitlab.whu.edu.cn"  # 替换为目标地址
+    target = "http://target.com"  # 替换为目标地址
     filepath = "/explore/projects"  # 对应ExpParams中的filepath参数
 
     print(f"[*] 目标: {target}")
